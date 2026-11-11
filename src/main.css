@@ -60,7 +60,8 @@ body {
 .chat_z_gUBg > .scrollerBase_tqapBM /* server members page */,
 .chat_z_gUBg > .header_xTP3zy  /* server channels and roles header */,
 .chat_z_gUBg > .container_xTP3zy /* server channels and roles page */,
-.container_dvN-MP /* popout modals */ {
+.container_dvN-MP /* popout modals */,
+.container_P8Fhjj /* friends sidebar */ {
     background-color: var(--background-base-lower);
     border-radius: var(--radius-lg);
     border: var(--border-thickness) solid var(--border-subtle);
@@ -70,6 +71,21 @@ body {
 
     &:hover {
         border-color: var(--border-hover);
+    }
+}
+
+/* Friends sidebar */
+.container_P8Fhjj {
+    margin-left: var(--gap);
+
+    /* Hide resize handle */
+    .resizeHandle_P8Fhjj {
+        display: none;
+    }
+
+    /* Fix offset caused by higher --border-thickness values */
+    .body_P8Fhjj {
+        min-width: auto;
     }
 }
 
