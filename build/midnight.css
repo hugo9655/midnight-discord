@@ -2036,7 +2036,7 @@ body {
             --top-bar-right-margin: calc(32px * var(--button-count) + (var(--button-count) + 2) * var(--space-xs) + 6 * var(--window-control-size) + var(--window-controls-padding));
         }
 
-        /* Revert icon sizing changes */
+        /* Apply fixed 32x32 size for titlebar icons */
         .trailing_3zSH5d {
             > div:not(.winButtons_3zSH5d),
             div.clickable_fErCLM {
